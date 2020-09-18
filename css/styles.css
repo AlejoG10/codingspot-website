@@ -75,6 +75,7 @@ header {
 
 .test-lorem p {
   margin-bottom: 100px;
+  width:300px;
 }
 
 /* Footer */
