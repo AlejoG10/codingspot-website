@@ -70,12 +70,11 @@ header {
 /* Test */
 
 .test-lorem {
-  padding: 10% 40% 0;
+  padding: 10% 30% 0;
 }
 
 .test-lorem p {
   margin-bottom: 100px;
-  width:300px;
 }
 
 /* Footer */
