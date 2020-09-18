@@ -2,11 +2,6 @@
 
 header {
   background-color: #1b1b22;
-  padding: 3% 15% 3%;
-}
-
-.container-fluid {
-  padding: 0;
 }
 
 .navbar {
@@ -16,24 +11,36 @@ header {
 .navbar-brand {
   font-size: 2.5rem;
   font-family: 'Rajdhani', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-item {
   font-size: 1.2rem;
+  padding: 0 18px;
+}
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding: 0;
+  }
 }
 
 .nav-item:hover {
   border-bottom: 1px solid #ddff0c;
 }
 
-.title {
-  text-align: center;
+.container-fluid {
+  padding: 0;
 }
 
-.title img {
-  padding-top: 12%;
-  padding-bottom: 12%;
-  width: 50%;
+.logo {
+  text-align: center;
+  padding: 7% 0;
+}
+
+.logo img {
+  width: 40%;
 }
 
 /* Portfolio */
@@ -57,6 +64,16 @@ header {
   border-color: #1b1b22;
   background-color: #ddff0c;
   color: #1b1b22;
+}
+
+/* Test */
+
+.test-lorem {
+  padding: 10% 40% 0;
+}
+
+.test-lorem p {
+  margin-bottom: 100px;
 }
 
 /* Footer */
